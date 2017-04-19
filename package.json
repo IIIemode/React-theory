@@ -44,7 +44,10 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "prop-types": "^15.5.8",
+    "proptypes": "^0.14.4",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-is-deprecated": "^0.1.2"
   }
 }
