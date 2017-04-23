@@ -11,7 +11,7 @@ class App extends Component {
     };
 
     static defaultProps = {
-        btnText: 'default props text'
+        btnText: 'D'
     };
 
     btnOnClick(event) {
@@ -24,7 +24,7 @@ class App extends Component {
             <div className="test">
                 <h1>{ this.props.h1Text }</h1>
                 <h3>It`s really working!</h3>
-                <button onClick={this.btnOnClick}>{ this.props.btnText || 'Default text'}</button>
+                <button onClick={this.btnOnClick}>{ this.props.btnText || 'Default'}</button>
             </div>
         );
     }
